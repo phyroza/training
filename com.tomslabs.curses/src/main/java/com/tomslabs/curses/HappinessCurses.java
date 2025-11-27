@@ -1,14 +1,15 @@
 package com.tomslabs.curses;
 
+import com.tomslabs.curse.Curse;
+
 public class HappinessCurses {
-    public static String smallCurse()
+    public static Curse smallCurse()
     {
-        return "May your shoelaces always be tied together!";
+        return Curse.createCurse("May your shoelaces always be tied together!");
     }
 
-    public static String meanCurse()
+    public static Curse meanCurse()
     {
-        return "May your enemies know what you've done to you";
+        return Curse.createCurse("May your enemies know what you've done to you");
     }
-
 }

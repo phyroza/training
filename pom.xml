@@ -12,6 +12,7 @@
         <module>com.tomslabs.math</module>
         <module>com.tomslabs.curses</module>
         <module>com.tomslabs.cursesapp</module>
+        <module>com.tomslabs.curse</module>
     </modules>
 
     <properties>

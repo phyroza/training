@@ -1,11 +1,12 @@
 package com.tomslabs.curseapp;
 
+import com.tomslabs.curse.Curse;
 import com.tomslabs.curses.HappinessCurses;
 import com.tomslabs.math.integer.IntOperations;
 
 public class Main {
     static void main() {
-        String curse = HappinessCurses.smallCurse();
+        Curse curse = HappinessCurses.smallCurse();
         IO.println(curse);
 
         for (int i = 1; i <= 5; i++) {
