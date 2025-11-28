@@ -4,4 +4,5 @@
 module com.tomslabs.cursesapp {
     requires com.tomslabs.curses;
     requires com.tomslabs.math;
+    uses com.tomslabs.curse.Curser;
 }
